@@ -1,0 +1,25 @@
+{
+  "name": "mysecondnoderepo",
+  "version": "1.1.0",
+  "description": "My Second Node Repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahul26goyal/MySecondNodeRepo.git"
+  },
+  "dependencies": {
+    "nodeapponheroku" : "git+https://github.com/rahul26goyal/FirstNodeRepo.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Rahul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rahul26goyal/MySecondNodeRepo/issues"
+  },
+  "homepage": "https://github.com/rahul26goyal/MySecondNodeRepo#readme"
+}
